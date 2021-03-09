@@ -11,7 +11,6 @@ public class swiftPackageNetworkDemo {
         latlong: Double = 0.0,
         longitude: Double = 0.0,
         time: Int64 = 0, // epoch timestamp in seconds
-        ext: String = "", // extra text payload
         callback: @escaping (Any) -> Void
     ) {
         
