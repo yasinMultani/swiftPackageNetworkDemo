@@ -4,13 +4,11 @@ swiftPackageNetworkDemo is the demo project for the learning purpose.
 
 With the help of this demo project you can post the specific data to the entered URL as POST. Right now this demo project includes below parameters.
 
-# API URL
-# Latlong
-# Latitude
-# Time
-# callback function
-
-It has callback function which will pass the retrived data.
+* API URL
+* Latlong
+* Latitude
+* Time
+* callback function - It has callback function which will pass the retrived data.
 
 ## Supports
 * iOS 10.0+
@@ -31,6 +29,7 @@ import swiftPackageNetworkDemo
 
 ## Usage
 var swiftPackagePost = swiftPackageNetworkDemo()
+
 swiftPackagePost.post(url: apiUrl) { (res) in
     print(res)
 }
