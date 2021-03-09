@@ -21,7 +21,6 @@ public class swiftPackageNetworkDemo {
             "lat": latlong,
             "lon": longitude,
             "time": time,
-            "ext": ext,
         ]
         
         var request = URLRequest(url: serviceUrl)
