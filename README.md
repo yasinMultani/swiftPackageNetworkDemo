@@ -35,7 +35,7 @@ swiftPackagePost.post(url: apiUrl) { (res) in
 }
 
 
-Copyright (c) 2015 Lee Sun-Hyoup
+Copyright (c) 2021 Yasin Multani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
